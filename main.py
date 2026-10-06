@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # لینک Raw گیت‌هاب گیست خودت رو اینجا بزار
-GIST_RAW_URL = "https://gist.githubusercontent.com/eslmhe-ux/f604d4792869cca4dd1eb8c8a8e82f54/raw/4c1942439230c11652242c59b298dd2359aefe83/message.txt"
+GIST_RAW_URL = "https://gist.githubusercontent.com/eslmhe-ux/f604d4792869cca4dd1eb8c8a8e82f54/raw/b96dd2fdec38041db2cb97219b56300ae1b4dd79/message.txt"
 
 @app.route("/daily")
 def get_daily():
