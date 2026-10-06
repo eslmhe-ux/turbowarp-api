@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 CORS(app)  # برای جلوگیری از خطای امنیتی در مرورگر
 
-DAILY_MESSAGE = "پیام امروز: خوش آمدید به بازی!"
+DAILY_MESSAGE = "پیامبر فرمود"
 
 @app.route("/daily")
 def get_daily():
